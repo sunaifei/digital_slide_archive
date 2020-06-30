@@ -29,6 +29,13 @@ After which, you will need re-evaluate group membership::
 
     newgrp docker
 
+Double check which version of pip is installed; Ubuntu 18.04 still defaults to pip version 9.0.1 which is quite old.
+
+   pip --version
+   
+If your version is older than 19.0, upgrade pip to a more recent version
+
+
 Install the python docker module::
 
     sudo pip install docker
